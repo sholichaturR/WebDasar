@@ -1,0 +1,101 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+a{
+  color: inherit;
+  text-decoration: 0;
+}
+.medsos{
+  padding:5px 0;
+  background-color: #F1C40F;
+}
+.medsos ul li {
+  display: inline-block;
+  color: #fff;
+  margin-right: 10px
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+.container:after{
+  content:"";
+ display: block;
+ clear: both;
+}
+
+header h1{
+
+  float: left;
+  padding: 15px 0;
+  color:  #F1C40F;
+}
+header ul{
+
+  float: right;
+}
+header ul li{
+  display: inline-block;
+}
+header ul li a{
+  padding: 25px 20px;
+  display: inline-block;
+}
+header ul li a:hover{
+  background-color:  #F1C40F;
+  color:#fff;
+}
+.active{
+  background-color:  #F1C40F;
+  color:#fff;
+}
+
+
+.gambar {width: 90%;
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         margin:auto;}
+
+.gambar .foto img{
+  width: 200px;
+}
+.foto{
+  border: 1px solid orange;
+  margin: 20px;
+  text-align: center;
+}
+.foto a{
+  border: 1px solid orange;
+  padding:2px;
+      color: white;
+      background: orange;
+      text-decoration: none;
+      border-radius: 50px;
+      cursor: pointer;
+}
+media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
+footer{
+  padding: 30px 0;
+  background-color: #F1C40F;
+  color: #fff;
+  text-align: center;
+}
+.label{
+  padding: 30px 0;
+  background-color: #F1C40F;
+  color: #fff;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+
+  background-image: url("geometric-leaves.png");
+}
